@@ -1,0 +1,83 @@
+:root{--BG: hsl(217, 54%, 11%);
+      --card :hsl(216, 50%, 16%);
+      --line: hsl(215, 32%, 27%);
+      --White: hsl(0, 0%, 100%);
+      --Softblue: hsl(215, 51%, 70%);
+      --Cyan: hsl(178, 100%, 50%);}
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{display:flex;
+justify-content: center;
+align-items: center;
+flex-flow:column wrap;
+background-color: var(--BG);
+font-family: 'Outfit', sans-serif;
+overflow:hidden;
+
+
+}
+
+.nftcard{background-color: var(--card);
+padding: 20px;
+border-radius: 1em;
+margin-top: -40px;
+font-family: 'Outfit', sans-serif;
+justify-content: center;
+}
+
+.pic1{border-radius:0.5em;
+width:22em;
+height:22em;
+display: block;
+}
+
+h1{ font-weight: 600;
+color:var(--White)}
+
+#nil{font-weight:300;
+color:var(--Softblue);
+font-size: 20px;}
+
+.more{display: flex;
+flex-direction: row;
+justify-content: space-between;}
+
+.pricing span{color:var(--Cyan);}
+.timing span{color:var(--Softblue);}
+.pic2{vertical-align: text-top;}
+.lil{border:1px solid var(--Softblue)}
+
+.jay:active{color: var(--Cyan);
+    cursor: pointer;}
+.container:hover{cursor:default;}
+h1:active{color: var(--Cyan);
+    cursor: pointer;}
+.pic1:active{background-color: var(--Cyan);
+        cursor: pointer;}
+
+
+
+
+
+.pic3{width:40px;  
+ border: 1px solid white;
+ border-radius:30px;
+vertical-align: middle;
+display: inline-block;
+}
+
+.info{color:var(--Softblue);}
+.jay{color:var(--White)}
+
+.attribution{font-size: 10px;
+color: var(--Softblue);}
+
+
+
